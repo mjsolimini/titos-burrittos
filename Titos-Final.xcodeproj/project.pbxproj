@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D1A01831E3D8D8500ADF34D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A01821E3D8D8500ADF34D /* AppDelegate.swift */; };
+		0D1A01851E3D8D8500ADF34D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A01841E3D8D8500ADF34D /* ViewController.swift */; };
+		0D1A01881E3D8D8500ADF34D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A01861E3D8D8500ADF34D /* Main.storyboard */; };
+		0D1A018A1E3D8D8500ADF34D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A01891E3D8D8500ADF34D /* Assets.xcassets */; };
+		0D1A018D1E3D8D8500ADF34D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A018B1E3D8D8500ADF34D /* LaunchScreen.storyboard */; };
+		0D1A01981E3D8D8500ADF34D /* Titos_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A01971E3D8D8500ADF34D /* Titos_FinalTests.swift */; };
+		0D1A01A31E3D8D8500ADF34D /* Titos_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A01A21E3D8D8500ADF34D /* Titos_FinalUITests.swift */; };
+		0D1A01B31E3D937F00ADF34D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A01B21E3D937F00ADF34D /* SWRevealViewController.m */; };
+		0D1A01B51E3D953700ADF34D /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A01B41E3D953700ADF34D /* BackTableVC.swift */; };
+		0D1A01B71E3D996C00ADF34D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A01B61E3D996C00ADF34D /* Home.swift */; };
+		0D1A01B91E3D99D000ADF34D /* Order-Online.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A01B81E3D99D000ADF34D /* Order-Online.swift */; };
+		0D1A01BB1E3D99F700ADF34D /* Catering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A01BA1E3D99F700ADF34D /* Catering.swift */; };
+		0D1A01BD1E3D9A1300ADF34D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A01BC1E3D9A1300ADF34D /* Menu.swift */; };
+		0D1A01BF1E3D9A2D00ADF34D /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A01BE1E3D9A2D00ADF34D /* About.swift */; };
+		0D1A01C11E3D9A4200ADF34D /* Daily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A01C01E3D9A4200ADF34D /* Daily.swift */; };
+		0D1A01C31E3D9C9700ADF34D /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A01C21E3D9C9700ADF34D /* Locations.swift */; };
+		0D6475DE1E3E60EE00B12040 /* SummitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6475DD1E3E60EE00B12040 /* SummitViewController.swift */; };
+		0D6475E01E3E62AC00B12040 /* MorristownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6475DF1E3E62AC00B12040 /* MorristownViewController.swift */; };
+		0D6475E21E3E633F00B12040 /* RidgewoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6475E11E3E633F00B12040 /* RidgewoodViewController.swift */; };
+		0D6475E41E3E63B300B12040 /* SouthOrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6475E31E3E63B300B12040 /* SouthOrangeViewController.swift */; };
+		0D6475E61E3E644D00B12040 /* LSummitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6475E51E3E644D00B12040 /* LSummitViewController.swift */; };
+		0D6475E81E3E64B600B12040 /* LMorristownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6475E71E3E64B600B12040 /* LMorristownViewController.swift */; };
+		0D6475EA1E3E650A00B12040 /* LRidgewoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6475E91E3E650A00B12040 /* LRidgewoodViewController.swift */; };
+		0D6475EC1E3E657300B12040 /* LSouthOrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6475EB1E3E657300B12040 /* LSouthOrangeViewController.swift */; };
+		0D6475EE1E3E65CC00B12040 /* LBoontonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6475ED1E3E65CC00B12040 /* LBoontonViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D1A01941E3D8D8500ADF34D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D1A01771E3D8D8500ADF34D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D1A017E1E3D8D8500ADF34D;
+			remoteInfo = "Titos-Final";
+		};
+		0D1A019F1E3D8D8500ADF34D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D1A01771E3D8D8500ADF34D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D1A017E1E3D8D8500ADF34D;
+			remoteInfo = "Titos-Final";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D1A017F1E3D8D8500ADF34D /* Titos-Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Titos-Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D1A01821E3D8D8500ADF34D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D1A01841E3D8D8500ADF34D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D1A01871E3D8D8500ADF34D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D1A01891E3D8D8500ADF34D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D1A018C1E3D8D8500ADF34D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D1A018E1E3D8D8500ADF34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D1A01931E3D8D8500ADF34D /* Titos-FinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Titos-FinalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D1A01971E3D8D8500ADF34D /* Titos_FinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Titos_FinalTests.swift; sourceTree = "<group>"; };
+		0D1A01991E3D8D8500ADF34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D1A019E1E3D8D8500ADF34D /* Titos-FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Titos-FinalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D1A01A21E3D8D8500ADF34D /* Titos_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Titos_FinalUITests.swift; sourceTree = "<group>"; };
+		0D1A01A41E3D8D8500ADF34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D1A01B01E3D937F00ADF34D /* Titos-Final-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Titos-Final-Bridging-Header.h"; sourceTree = "<group>"; };
+		0D1A01B11E3D937F00ADF34D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		0D1A01B21E3D937F00ADF34D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		0D1A01B41E3D953700ADF34D /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		0D1A01B61E3D996C00ADF34D /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0D1A01B81E3D99D000ADF34D /* Order-Online.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Order-Online.swift"; sourceTree = "<group>"; };
+		0D1A01BA1E3D99F700ADF34D /* Catering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Catering.swift; sourceTree = "<group>"; };
+		0D1A01BC1E3D9A1300ADF34D /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		0D1A01BE1E3D9A2D00ADF34D /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		0D1A01C01E3D9A4200ADF34D /* Daily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Daily.swift; sourceTree = "<group>"; };
+		0D1A01C21E3D9C9700ADF34D /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		0D6475DD1E3E60EE00B12040 /* SummitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummitViewController.swift; sourceTree = "<group>"; };
+		0D6475DF1E3E62AC00B12040 /* MorristownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorristownViewController.swift; sourceTree = "<group>"; };
+		0D6475E11E3E633F00B12040 /* RidgewoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidgewoodViewController.swift; sourceTree = "<group>"; };
+		0D6475E31E3E63B300B12040 /* SouthOrangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SouthOrangeViewController.swift; sourceTree = "<group>"; };
+		0D6475E51E3E644D00B12040 /* LSummitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSummitViewController.swift; sourceTree = "<group>"; };
+		0D6475E71E3E64B600B12040 /* LMorristownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMorristownViewController.swift; sourceTree = "<group>"; };
+		0D6475E91E3E650A00B12040 /* LRidgewoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRidgewoodViewController.swift; sourceTree = "<group>"; };
+		0D6475EB1E3E657300B12040 /* LSouthOrangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSouthOrangeViewController.swift; sourceTree = "<group>"; };
+		0D6475ED1E3E65CC00B12040 /* LBoontonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBoontonViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D1A017C1E3D8D8500ADF34D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D1A01901E3D8D8500ADF34D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D1A019B1E3D8D8500ADF34D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1A01761E3D8D8500ADF34D = {
+			isa = PBXGroup;
+			children = (
+				0D1A01811E3D8D8500ADF34D /* Titos-Final */,
+				0D1A01961E3D8D8500ADF34D /* Titos-FinalTests */,
+				0D1A01A11E3D8D8500ADF34D /* Titos-FinalUITests */,
+				0D1A01801E3D8D8500ADF34D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D1A01801E3D8D8500ADF34D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D1A017F1E3D8D8500ADF34D /* Titos-Final.app */,
+				0D1A01931E3D8D8500ADF34D /* Titos-FinalTests.xctest */,
+				0D1A019E1E3D8D8500ADF34D /* Titos-FinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D1A01811E3D8D8500ADF34D /* Titos-Final */ = {
+			isa = PBXGroup;
+			children = (
+				0D6475F11E3E66F600B12040 /* Other-VCs */,
+				0D6475F01E3E66B700B12040 /* Order-Online */,
+				0D6475EF1E3E66A100B12040 /* Locations */,
+				0D1A01B11E3D937F00ADF34D /* SWRevealViewController.h */,
+				0D1A01B21E3D937F00ADF34D /* SWRevealViewController.m */,
+				0D1A01821E3D8D8500ADF34D /* AppDelegate.swift */,
+				0D1A01841E3D8D8500ADF34D /* ViewController.swift */,
+				0D1A01861E3D8D8500ADF34D /* Main.storyboard */,
+				0D1A01891E3D8D8500ADF34D /* Assets.xcassets */,
+				0D1A018B1E3D8D8500ADF34D /* LaunchScreen.storyboard */,
+				0D1A018E1E3D8D8500ADF34D /* Info.plist */,
+				0D1A01B01E3D937F00ADF34D /* Titos-Final-Bridging-Header.h */,
+			);
+			path = "Titos-Final";
+			sourceTree = "<group>";
+		};
+		0D1A01961E3D8D8500ADF34D /* Titos-FinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D1A01971E3D8D8500ADF34D /* Titos_FinalTests.swift */,
+				0D1A01991E3D8D8500ADF34D /* Info.plist */,
+			);
+			path = "Titos-FinalTests";
+			sourceTree = "<group>";
+		};
+		0D1A01A11E3D8D8500ADF34D /* Titos-FinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D1A01A21E3D8D8500ADF34D /* Titos_FinalUITests.swift */,
+				0D1A01A41E3D8D8500ADF34D /* Info.plist */,
+			);
+			path = "Titos-FinalUITests";
+			sourceTree = "<group>";
+		};
+		0D6475EF1E3E66A100B12040 /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				0D6475ED1E3E65CC00B12040 /* LBoontonViewController.swift */,
+				0D6475EB1E3E657300B12040 /* LSouthOrangeViewController.swift */,
+				0D6475E91E3E650A00B12040 /* LRidgewoodViewController.swift */,
+				0D6475E71E3E64B600B12040 /* LMorristownViewController.swift */,
+				0D6475E51E3E644D00B12040 /* LSummitViewController.swift */,
+			);
+			name = Locations;
+			sourceTree = "<group>";
+		};
+		0D6475F01E3E66B700B12040 /* Order-Online */ = {
+			isa = PBXGroup;
+			children = (
+				0D6475E31E3E63B300B12040 /* SouthOrangeViewController.swift */,
+				0D6475E11E3E633F00B12040 /* RidgewoodViewController.swift */,
+				0D6475DF1E3E62AC00B12040 /* MorristownViewController.swift */,
+				0D6475DD1E3E60EE00B12040 /* SummitViewController.swift */,
+			);
+			name = "Order-Online";
+			sourceTree = "<group>";
+		};
+		0D6475F11E3E66F600B12040 /* Other-VCs */ = {
+			isa = PBXGroup;
+			children = (
+				0D1A01C01E3D9A4200ADF34D /* Daily.swift */,
+				0D1A01C21E3D9C9700ADF34D /* Locations.swift */,
+				0D1A01BE1E3D9A2D00ADF34D /* About.swift */,
+				0D1A01BC1E3D9A1300ADF34D /* Menu.swift */,
+				0D1A01BA1E3D99F700ADF34D /* Catering.swift */,
+				0D1A01B81E3D99D000ADF34D /* Order-Online.swift */,
+				0D1A01B61E3D996C00ADF34D /* Home.swift */,
+				0D1A01B41E3D953700ADF34D /* BackTableVC.swift */,
+			);
+			name = "Other-VCs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D1A017E1E3D8D8500ADF34D /* Titos-Final */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D1A01A71E3D8D8500ADF34D /* Build configuration list for PBXNativeTarget "Titos-Final" */;
+			buildPhases = (
+				0D1A017B1E3D8D8500ADF34D /* Sources */,
+				0D1A017C1E3D8D8500ADF34D /* Frameworks */,
+				0D1A017D1E3D8D8500ADF34D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Titos-Final";
+			productName = "Titos-Final";
+			productReference = 0D1A017F1E3D8D8500ADF34D /* Titos-Final.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D1A01921E3D8D8500ADF34D /* Titos-FinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D1A01AA1E3D8D8500ADF34D /* Build configuration list for PBXNativeTarget "Titos-FinalTests" */;
+			buildPhases = (
+				0D1A018F1E3D8D8500ADF34D /* Sources */,
+				0D1A01901E3D8D8500ADF34D /* Frameworks */,
+				0D1A01911E3D8D8500ADF34D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D1A01951E3D8D8500ADF34D /* PBXTargetDependency */,
+			);
+			name = "Titos-FinalTests";
+			productName = "Titos-FinalTests";
+			productReference = 0D1A01931E3D8D8500ADF34D /* Titos-FinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D1A019D1E3D8D8500ADF34D /* Titos-FinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D1A01AD1E3D8D8500ADF34D /* Build configuration list for PBXNativeTarget "Titos-FinalUITests" */;
+			buildPhases = (
+				0D1A019A1E3D8D8500ADF34D /* Sources */,
+				0D1A019B1E3D8D8500ADF34D /* Frameworks */,
+				0D1A019C1E3D8D8500ADF34D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D1A01A01E3D8D8500ADF34D /* PBXTargetDependency */,
+			);
+			name = "Titos-FinalUITests";
+			productName = "Titos-FinalUITests";
+			productReference = 0D1A019E1E3D8D8500ADF34D /* Titos-FinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D1A01771E3D8D8500ADF34D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alpha Dev";
+				TargetAttributes = {
+					0D1A017E1E3D8D8500ADF34D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CWAAPTL6QZ;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					0D1A01921E3D8D8500ADF34D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CWAAPTL6QZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D1A017E1E3D8D8500ADF34D;
+					};
+					0D1A019D1E3D8D8500ADF34D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CWAAPTL6QZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D1A017E1E3D8D8500ADF34D;
+					};
+				};
+			};
+			buildConfigurationList = 0D1A017A1E3D8D8500ADF34D /* Build configuration list for PBXProject "Titos-Final" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D1A01761E3D8D8500ADF34D;
+			productRefGroup = 0D1A01801E3D8D8500ADF34D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D1A017E1E3D8D8500ADF34D /* Titos-Final */,
+				0D1A01921E3D8D8500ADF34D /* Titos-FinalTests */,
+				0D1A019D1E3D8D8500ADF34D /* Titos-FinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D1A017D1E3D8D8500ADF34D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1A018D1E3D8D8500ADF34D /* LaunchScreen.storyboard in Resources */,
+				0D1A018A1E3D8D8500ADF34D /* Assets.xcassets in Resources */,
+				0D1A01881E3D8D8500ADF34D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D1A01911E3D8D8500ADF34D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D1A019C1E3D8D8500ADF34D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D1A017B1E3D8D8500ADF34D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6475EA1E3E650A00B12040 /* LRidgewoodViewController.swift in Sources */,
+				0D6475E61E3E644D00B12040 /* LSummitViewController.swift in Sources */,
+				0D1A01851E3D8D8500ADF34D /* ViewController.swift in Sources */,
+				0D6475EC1E3E657300B12040 /* LSouthOrangeViewController.swift in Sources */,
+				0D1A01C11E3D9A4200ADF34D /* Daily.swift in Sources */,
+				0D6475EE1E3E65CC00B12040 /* LBoontonViewController.swift in Sources */,
+				0D1A01831E3D8D8500ADF34D /* AppDelegate.swift in Sources */,
+				0D1A01BD1E3D9A1300ADF34D /* Menu.swift in Sources */,
+				0D1A01BB1E3D99F700ADF34D /* Catering.swift in Sources */,
+				0D1A01B71E3D996C00ADF34D /* Home.swift in Sources */,
+				0D1A01B91E3D99D000ADF34D /* Order-Online.swift in Sources */,
+				0D6475E41E3E63B300B12040 /* SouthOrangeViewController.swift in Sources */,
+				0D6475DE1E3E60EE00B12040 /* SummitViewController.swift in Sources */,
+				0D1A01B51E3D953700ADF34D /* BackTableVC.swift in Sources */,
+				0D6475E81E3E64B600B12040 /* LMorristownViewController.swift in Sources */,
+				0D6475E21E3E633F00B12040 /* RidgewoodViewController.swift in Sources */,
+				0D1A01BF1E3D9A2D00ADF34D /* About.swift in Sources */,
+				0D6475E01E3E62AC00B12040 /* MorristownViewController.swift in Sources */,
+				0D1A01C31E3D9C9700ADF34D /* Locations.swift in Sources */,
+				0D1A01B31E3D937F00ADF34D /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D1A018F1E3D8D8500ADF34D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1A01981E3D8D8500ADF34D /* Titos_FinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D1A019A1E3D8D8500ADF34D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1A01A31E3D8D8500ADF34D /* Titos_FinalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D1A01951E3D8D8500ADF34D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D1A017E1E3D8D8500ADF34D /* Titos-Final */;
+			targetProxy = 0D1A01941E3D8D8500ADF34D /* PBXContainerItemProxy */;
+		};
+		0D1A01A01E3D8D8500ADF34D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D1A017E1E3D8D8500ADF34D /* Titos-Final */;
+			targetProxy = 0D1A019F1E3D8D8500ADF34D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D1A01861E3D8D8500ADF34D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D1A01871E3D8D8500ADF34D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D1A018B1E3D8D8500ADF34D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D1A018C1E3D8D8500ADF34D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D1A01A51E3D8D8500ADF34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D1A01A61E3D8D8500ADF34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D1A01A81E3D8D8500ADF34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = CWAAPTL6QZ;
+				INFOPLIST_FILE = "Titos-Final/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDev.Titos-Final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Titos-Final/Titos-Final-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0D1A01A91E3D8D8500ADF34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = CWAAPTL6QZ;
+				INFOPLIST_FILE = "Titos-Final/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDev.Titos-Final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Titos-Final/Titos-Final-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0D1A01AB1E3D8D8500ADF34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CWAAPTL6QZ;
+				INFOPLIST_FILE = "Titos-FinalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDev.Titos-FinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Titos-Final.app/Titos-Final";
+			};
+			name = Debug;
+		};
+		0D1A01AC1E3D8D8500ADF34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CWAAPTL6QZ;
+				INFOPLIST_FILE = "Titos-FinalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDev.Titos-FinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Titos-Final.app/Titos-Final";
+			};
+			name = Release;
+		};
+		0D1A01AE1E3D8D8500ADF34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CWAAPTL6QZ;
+				INFOPLIST_FILE = "Titos-FinalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDev.Titos-FinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Titos-Final";
+			};
+			name = Debug;
+		};
+		0D1A01AF1E3D8D8500ADF34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CWAAPTL6QZ;
+				INFOPLIST_FILE = "Titos-FinalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDev.Titos-FinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Titos-Final";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D1A017A1E3D8D8500ADF34D /* Build configuration list for PBXProject "Titos-Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D1A01A51E3D8D8500ADF34D /* Debug */,
+				0D1A01A61E3D8D8500ADF34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D1A01A71E3D8D8500ADF34D /* Build configuration list for PBXNativeTarget "Titos-Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D1A01A81E3D8D8500ADF34D /* Debug */,
+				0D1A01A91E3D8D8500ADF34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D1A01AA1E3D8D8500ADF34D /* Build configuration list for PBXNativeTarget "Titos-FinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D1A01AB1E3D8D8500ADF34D /* Debug */,
+				0D1A01AC1E3D8D8500ADF34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D1A01AD1E3D8D8500ADF34D /* Build configuration list for PBXNativeTarget "Titos-FinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D1A01AE1E3D8D8500ADF34D /* Debug */,
+				0D1A01AF1E3D8D8500ADF34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D1A01771E3D8D8500ADF34D /* Project object */;
+}
